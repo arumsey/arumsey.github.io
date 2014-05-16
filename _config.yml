@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://me.planetrumsey.ca
+title: Anthony Rumsey
+subtitle: A better planet...by design.
+author: Anthony Rumsey
 simple_search: https://www.google.com/search
 description:
 
