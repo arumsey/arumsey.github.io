@@ -1,0 +1,1 @@
+A few slides on the integration of AngularJS with Phonegap in AEM.
