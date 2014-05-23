@@ -1,12 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>
+            http://me.planetrumsey.ca/blog/2014/05/16/delivering-managed-content-to-your-native-apps/
+        </loc>
+        <lastmod>2014-05-23T09:05:17-04:00</lastmod>
+    </url>
+    <url>
         <loc>http://me.planetrumsey.ca/blog/archives/</loc>
-        <lastmod>2014-05-16T13:52:04-04:00</lastmod>
+        <lastmod>2014-05-23T09:05:17-04:00</lastmod>
     </url>
     <url>
         <loc>http://me.planetrumsey.ca/</loc>
-        <lastmod>2014-05-16T13:52:04-04:00</lastmod>
+        <lastmod>2014-05-23T09:05:17-04:00</lastmod>
     </url>
     <url>
         <loc>http://me.planetrumsey.ca/robots.txt</loc>
