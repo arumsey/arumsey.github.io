@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Anthony Rumsey]]></title>
-  <link href="http://me.planetrumsey.ca/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Conference | Anthony Rumsey]]></title>
+  <link href="http://me.planetrumsey.ca/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://me.planetrumsey.ca/"/>
   <updated>2014-05-23T09:26:29-04:00</updated>
   <id>http://me.planetrumsey.ca/</id>
