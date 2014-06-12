@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Delivering Managed Content to Your Native Apps</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="Anthony Rumsey">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel=stylesheet href=css/reveal.min.css>
+    <link rel=stylesheet href=css/theme/adobe/adobe.css id=theme>
+    <link rel=stylesheet href=css/theme/adobe/custom.css>
+    <link rel=stylesheet href=lib/css/zenburn.css>
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+        document.write('<link rel="stylesheet" href="css/print/' + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper') + '.css" type="text/css" media="print">');
+    </script>
+
+    <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+    <!--
+            States:
+                data-state="bg-white"
+                data-state="bg-red"
+                data-state="alert"
+                data-state="soothe"
+        -->
+
+    <div class="reveal">
+
+        <div class="slides">
+
+            <section data-state="bg-white">
+                <h2>Managed Content</h2>
+                <h3>Delivered to Your Native Apps</h3>
+                <br>
+                <br>
+                <p>Anthony Rumsey (
+                    <a href="http://twitter.com/planetrumsey">@planetrumsey</a>)</p>
+                <p class="subtext">Computer Scientist, Adobe Systems</p>
+                <br>
+                <p>
+                    <img src="img/connect-logo.png" style="box-shadow:none" />
+                </p>
+
+                <aside class="notes">
+                    <ul>
+                        <li>welcome</li>
+                    </ul>
+                </aside>
+
+            </section>
+            
+            <section data-state="bg-white">
+                <h2>Hi there!</h2>
+                <br>
+                <p><a href="mailto://arumsey@adobe.com">arumsey@adobe.com</a></p>
+                <p><a href="http://twitter.com/planetrumsey">@planetrumsey</a></p>
+                <aside class="notes">
+                    <ul>
+                        <li>15 years at Adobe</li>
+                        <li>majorty of time spent on web tech</li>
+                        <li>mobile focus over the past few years</li>
+                    </ul>
+                </aside>
+
+            </section>
+
+            <section data-background="img/kids.jpg" data-background-transition="slide">
+
+                <h2 class="fragment banner">Compromise</h2>
+
+                <aside class="notes">
+                    <ul>
+                        <li>software development is about compromise</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section data-state="bg-white">
+                <h2>AEM Apps</h2>
+                <table class="technologies">
+                    <tr>
+                        <td>
+                            <img src="img/AEM_logo.png" />
+                        </td>
+                        <td>
+                            <img src="img/pg_logo.png" />
+                        </td>
+                        <td>
+                            <img src="img/angularjs-logo.png" />
+                        </td>
+                        <td>
+                            <img src="img/cs_noun_3048.png" />
+                        </td>
+                    </tr>
+                </table>
+                <h3 class="fragment">managed content</h3>
+                <p>+</p>
+                <h3 class="fragment">proven open source tech</h3>
+
+                <aside class="notes">
+                    <ul>
+                        <li>Manage customer experience from one place</li>
+                        <li>give marketing control
+                            <ul>
+                                <li>like over their web content</li>
+                                <li>reduce burden on IT</li>
+                                <li>focus on dev new experiences instead of simply maintaining old ones</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section>
+                <h2>Mobile Landscape</h2>
+
+                <table class="platforms">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img class="no-bg" src="img/apple-logo.png">
+                            </td>
+                            <td>
+                                <img class="no-bg" src="img/android-logo.png">
+                            </td>
+                            <td>
+                                <img class="no-bg" src="img/pg_logo.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>800,000</h3>
+                            </td>
+                            <td>
+                                <h3>800,000</h3>
+                            </td>
+                            <td>
+                                <h3>2525</h3>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <aside class="notes">
+                    <ul>
+                        <li>each of the Apple AppStore and Google Play store have upwards of 800,000 apps</li>
+                        <li>comparatively Phonegap lists around 2500 apps</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section>
+                <h2>Hybrid Sweet Spot</h2>
+                <blockquote>So in classic disruption theory, the hybrid model is eating its way up through the complexity chain. I’d argue that the majority of information-based apps today can be successfully implemented through this approach with varying levels of the native/HTML split.</blockquote>
+                <br>
+                <br>
+                <p>David Heinemeier Hansson - Founder &amp; CTO at Basecamp</p>
+
+                <aside class="notes">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section data-state="soothe">
+                <h2>Compromise</h2>
+                <table class="compromise tasks" cellspacing="8">
+                    <tr>
+                        <td>
+                            <h3>Native</h3>
+                        </td>
+                        <td>
+                            <h3>Web</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>navigation</li>
+                                <li><i>some</i>&nbsp; views</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>information views</li>
+                                <li>updates</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+
+                <aside class="notes">
+                    <ul>
+                        <li>a possible compromise then would be to keep navigation and some specialized views native</li>
+                        <li>delegate gate all other views to HTML and have it managed by AEM</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section data-state="alert">
+                <h2>Demo</h2>
+
+                <aside class="notes">
+                    <ul>
+                        <li>existing Android app</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section data-state="bg-white">
+                <h2>Tasks</h2>
+                <table class="tasks" cellspacing="0">
+                    <tr class="numbers">
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="watermark" src="img/AEM_logo.png" />
+                            <p>Build AEM Web Content</p>
+                        </td>
+                        <td>
+                            <img class="watermark" src="img/android-logo.png" />
+                            <p>Augment Android App</p>
+                        </td>
+                        <td>
+                            <img class="watermark" src="img/code.png" />
+                            <p>Integrate native &amp; web</p>
+                        </td>
+                        <td>
+                            <img class="watermark" src="img/buildbot-hero.png" />
+                            <p>Plugins!</p>
+                        </td>
+                    </tr>
+                </table>
+                <aside class="notes">
+                    <ul>
+                        <li>3 steps to get managed content into your native app</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section>
+                <h2>Build Web Content</h2>
+
+                <ul>
+                    <li class="fragment highlight-current-blue">Design</li>
+                    <li class="fragment highlight-current-blue">Components
+                        <ul>
+                            <li>splash page</li>
+                            <li>home page</li>
+                            <li>custom</li>
+                        </ul>
+                    </li>
+                    <li class="fragment highlight-current-blue">Content Sync</li>
+                    <li class="fragment highlight-current-blue">Content</li>
+                </ul>
+
+                <aside class="notes">
+                    <ul>
+                        <li>build up web content using typical AEM workflows</li>
+                        <li>make use base AEM app components for routing/updates/controllers</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section>
+                <h2>Augment Android App</h2>
+                <h3>Layout</h3>
+
+                <pre>
+                    <code class="xml" data-trim>
+
+    &lt;org.apache.cordova.CordovaWebView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/aemWebView"/&gt;
+
+                    </code>
+                </pre>
+
+                <aside class="notes">
+                    <ul>
+                        <li>add a cordova webview layout</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section>
+                <h2>Augment Android App</h2>
+                <h3>Fragment</h3>
+
+                <pre>
+                    <code class="java" data-trim>
+public class HomeFragment extends Fragment implements CordovaInterface {
+
+    CordovaWebView aemView;
+    
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
+
+        LayoutInflater localInflater = inflater.cloneInContext(new CordovaContext(getActivity(), this));
+        View rootView = localInflater.inflate(R.layout.home_view_frag, container, false);
+        aemView = (CordovaWebView) rootView.findViewById(R.id.aemWebView);
+        Config.init(getActivity());
+        aemView.loadUrl(Config.getStartUrl());
+        return rootView;
+    }   
+}
+                    </code>
+                </pre>
+
+                <aside class="notes">
+                    <ul>
+                        <li>implement Corodova Interface</li>
+                        <li>inflate Cordova layout</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section>
+                <h2>Integrate</h2>
+
+                <ul>
+                    <li class="fragment highlight-current-blue">Download content package</li>
+                    <li class="fragment highlight-current-blue">Phonegap Build</li>
+                    <li class="fragment highlight-current-blue">Copy Assets</li>
+                </ul>
+
+                <aside class="notes">
+                    <ul>
+                        <li>download and build web content using phonegap cli</li>
+                        <li>copy assets to native project</li>
+                    </ul>
+                </aside>
+            </section>
+
+
+            <section>
+                <h2>Plugins</h2>
+
+                <pre>
+                    <code>public class Navigation extends CordovaPlugin {
+
+    @Override
+    public boolean execute(String action, CordovaArgs args, 
+            final CallbackContext callbackContext) throws JSONException {
+            
+        if ("navigate".equals(action)) {
+            this.cordova.getActivity().runOnUiThread(new Runnable() {
+                public void run() {
+                    navigateSync(args, callbackContext);
+                }
+            });
+            return true;
+        }
+        return false;
+    }
+}</code>
+                </pre>
+
+                <aside class="notes">
+                    <ul>
+                        <li>add custom plugins to allow web content to interact with native</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section data-state="alert">
+                <h2>Code Time</h2>
+
+                <aside class="notes">
+                    <ul>
+                        <li>show some code</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section data-state="soothe">
+                <h2>Q &amp; A</h2>
+
+                <a href="http://bit.ly/connectcon-app" target="_blank"><h3>bit.ly/connectcon-app</h3></a>
+
+            </section>
+
+
+            <section>
+                <h2>References</h2>
+                <ul>
+                    <li>
+                        <a href="https://github.com/Adobe-Marketing-Cloud/app-sample-android-phonegap" target="_blank">Android + Phonegap sample with AEM</a>
+                    </li>
+                    <li>
+                        <a href="http://techland.time.com/2013/04/16/ios-vs-android/" target="_blank">Who’s Winning, iOS or Android? All the Numbers, All in One Place</a>
+                    </li>
+                    <li>
+                        <a href="https://signalvnoise.com/posts/3743-hybrid-sweet-spot-native-navigation-web-content" target="_blank">Hybrid Sweet Spot</a>
+                    </li>
+
+
+                </ul>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+        Reveal.initialize({
+            controls: false,
+            progress: true,
+            history: true,
+            center: true,
+
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: 'linear', // default/cube/page/concave/zoom/linear/none
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [{
+                    src: 'lib/js/classList.js',
+                    condition: function () {
+                        return !document.body.classList;
+                    }
+                }, {
+                    src: 'plugin/markdown/showdown.js',
+                    condition: function () {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                }, {
+                    src: 'plugin/markdown/markdown.js',
+                    condition: function () {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                }, {
+                    src: 'plugin/highlight/highlight.js',
+                    async: true,
+                    callback: function () {
+                        hljs.initHighlightingOnLoad();
+                    }
+                }, {
+                    src: 'plugin/zoom-js/zoom.js',
+                    async: true,
+                    condition: function () {
+                        return !!document.body.classList;
+                    }
+                }, {
+                    src: 'plugin/notes/notes.js',
+                    async: true,
+                    condition: function () {
+                        return !!document.body.classList;
+                    }
+                }
+
+            ]
+        });
+    </script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-41891145-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+
+</html>
