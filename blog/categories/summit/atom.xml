@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Summit | Anthony Rumsey]]></title>
+  <link href="http://me.planetrumsey.ca/blog/categories/summit/atom.xml" rel="self"/>
+  <link href="http://me.planetrumsey.ca/"/>
+  <updated>2015-02-03T10:21:56-05:00</updated>
+  <id>http://me.planetrumsey.ca/</id>
+  <author>
+    <name><![CDATA[Anthony Rumsey]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Get Started Building Mobile Apps With PhoneGap Enterprise]]></title>
+    <link href="http://me.planetrumsey.ca/blog/2015/02/03/get-started-building-mobile-apps-with-phonegap-enterprise/"/>
+    <updated>2015-02-03T09:28:36-05:00</updated>
+    <id>http://me.planetrumsey.ca/blog/2015/02/03/get-started-building-mobile-apps-with-phonegap-enterprise</id>
+    <content type="html"><![CDATA[<p>Whether you’re a developer creating an engaging new app, a marketer personalizing the content, or a designer rolling out the experience across devices, the <a href="http://www.connectcon.ch/2014/en.html">AEM Apps</a> integrated mobile app development platform (MADP) makes it easy to do everything from a single location.</p>
+
+<p><a href="http://enterprise.phonegap.com/">PhoneGap Enterprise</a> is a part of AEM Apps and provides the ability for both developers and marketers to work together to create and manage their hybrid mobile apps. Allowing developers to continue using the tools they are familiar with while also embracing the AEM Apps platform is a recipe for success.</p>
+
+<p>At Adobe Sum­mit in Salt Lake City I will host a lab ses­sion called <a href="https://adobesummit.lanyonevents.com/2015/slc/connect/sessionDetail.ww?SESSION_ID=2588">Building Mobile Apps: Introduction to Adobe PhoneGap Enterprise for developers</a>, where I will walk you through the entire experience, starting from source code on the file system to authoring the app in Experience Manager. Then complete the development process by running the app on a device simulator and publishing content updates. This developer lab is the perfect opportunity to gain a complete understanding of building cross-platform mobile applications with Adobe Experience Manager.</p>
+
+<p>If you haven&rsquo;t done so already I recommend you reg­is­ter for <a href="http://summit.adobe.com/na/">Sum­mit</a> and this lab before the limited seats sell out. I am look­ing for­ward to helping you improve your mobile app development skills. I hope to meet you at Summit!</p>
+]]></content>
+  </entry>
+  
+</feed>
